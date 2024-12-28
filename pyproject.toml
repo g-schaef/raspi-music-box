@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "raspi-music-box"
+version = "0.1.0"
+description = "software to play mp3 files on repeat from a raspberry pi"
+authors = ["gs"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
